@@ -7,7 +7,7 @@ const FetchYogaData = () => {
 
     return (
         <>
-            <h1>Yoga Benefits</h1>
+            <h1 className='usefetch_heading'>Yoga Benefits</h1>
             <ul className='list_data_main'>
                 {data && data.map((e, index) => (
                     <li key={index} className='list_data'>
